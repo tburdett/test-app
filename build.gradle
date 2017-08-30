@@ -23,6 +23,8 @@ repositories {
 
 
 dependencies {
+	compile project(':test-model')
+
 	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile('org.springframework.data:spring-data-rest-hal-browser')
